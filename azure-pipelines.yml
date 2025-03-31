@@ -33,7 +33,7 @@ steps:
     RemoveSourceFolder: true
 - task: CmdLine@2
   inputs:
-    script: 'mkdir c:\a\1\MobEAD' 
+    script: 'mkdir d:\a\1\MobEAD' 
     #workingDirectory: # Optional
     #failOnStderr: false # Optional
 
