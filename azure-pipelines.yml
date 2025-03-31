@@ -9,6 +9,16 @@ trigger:
 pool:
   name: 'MySelfHostedAgent'
 
+steps:
+- task: DeleteFiles@1
+  displayName: 'Limpar diretórios temporários'
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)\c\a\1'
+    RemoveSourceFolder: true
+
+- script: echo "Executando o pipeline..."
+  displayName: 'Executar comandos'
+
 # Command line
 # Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
 
