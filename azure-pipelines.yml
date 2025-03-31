@@ -33,7 +33,7 @@ steps:
     RemoveSourceFolder: true
 - task: CmdLine@2
   inputs:
-    script: 'mkdir c:\users\ferna\agents\vsts-agent-win-x64-4.252.0> ' #'mkdir d:\a\1\MobEAD' 
+    script: 'mkdir c:\users\ferna\agents\vsts-agent-win-x64-4.252.0 ' #'mkdir d:\a\1\MobEAD' 
     #workingDirectory: # Optional
     #failOnStderr: false # Optional
 
